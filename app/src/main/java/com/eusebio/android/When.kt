@@ -2,6 +2,9 @@ package com.eusebio.android
 
 fun main(){
     // estructura when parecido a el swiych pero con mas funcionalidades
+    // puede mejoar la legibilidad del codigo
+    // uede evaluar en multiples valores ,condiciones o rangos
+
     println(getDia(1))//lunes
     println(getDia(0))//dia no valido
 
