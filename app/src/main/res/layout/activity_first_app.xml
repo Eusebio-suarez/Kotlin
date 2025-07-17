@@ -9,38 +9,47 @@
     android:orientation="vertical"
     tools:context=".firstapp.firstAppActivity">
 
-    <View
-        android:id="@+id/viewPurple"
-        android:layout_width="125dp"
-        android:layout_height="125dp"
-        android:background="@color/purple_200"
-        app:layout_constraintStart_toEndOf="@id/viewBlue"
-        app:layout_constraintBottom_toBottomOf="@id/viewBlue"
-        >
-
-    </View>
-
-    <View
-        android:id="@+id/viewBlack"
-        android:layout_width="125dp"
-        android:layout_height="125dp"
-        android:background="@color/black"
-        app:layout_constraintBottom_toBottomOf="@id/viewBlue"
-        app:layout_constraintEnd_toStartOf="@id/viewBlue"
-        >
-
-    </View>
-
-    <View
-        android:id="@+id/viewBlue"
-        android:layout_width="125dp"
-        android:layout_height="125dp"
-        android:background="@color/teal_200"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/eText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="40dp"
+        android:text="Escribe tu Nombre">
+
+    </TextView>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/eText"
+        android:layout_width="300dp"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/btnStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="30dp"
+        >
+    </androidx.appcompat.widget.AppCompatEditText>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="pulsar"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@color/purple_200"
         >
 
-    </View>
+    </androidx.appcompat.widget.AppCompatButton>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

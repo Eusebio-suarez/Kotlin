@@ -3,8 +3,8 @@
   <component name="deploymentTargetSelector">
     <selectionStates>
       <SelectionState runConfigName="app">
-        <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2025-07-16T20:06:13.488046200Z">
+        <option name="selectionMode" value="DIALOG" />
+        <DropdownSelection timestamp="2025-07-17T03:28:40.606668Z">
           <Target type="DEFAULT_BOOT">
             <handle>
               <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\eusebio\.android\avd\Pixel_7a.avd" />
@@ -15,7 +15,7 @@
           <targets>
             <Target type="DEFAULT_BOOT">
               <handle>
-                <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\eusebio\.android\avd\Medium_Phone.avd" />
+                <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\eusebio\.android\avd\Pixel_7a.avd" />
               </handle>
             </Target>
           </targets>
@@ -24,6 +24,17 @@
       <SelectionState runConfigName="firstAppActivity">
         <option name="selectionMode" value="DROPDOWN" />
         <DropdownSelection timestamp="2025-07-16T20:05:46.572651900Z">
+          <Target type="DEFAULT_BOOT">
+            <handle>
+              <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\eusebio\.android\avd\Pixel_7a.avd" />
+            </handle>
+          </Target>
+        </DropdownSelection>
+        <DialogSelection />
+      </SelectionState>
+      <SelectionState runConfigName="firstAppActivity (1)">
+        <option name="selectionMode" value="DROPDOWN" />
+        <DropdownSelection timestamp="2025-07-17T03:27:29.542297100Z">
           <Target type="DEFAULT_BOOT">
             <handle>
               <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\eusebio\.android\avd\Pixel_7a.avd" />
