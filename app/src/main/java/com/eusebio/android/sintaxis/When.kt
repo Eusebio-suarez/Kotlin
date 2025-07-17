@@ -1,4 +1,4 @@
-package com.eusebio.android
+package com.eusebio.android.sintaxis
 
 fun main(){
     // estructura when parecido a el swiych pero con mas funcionalidades
